@@ -6,7 +6,7 @@
     <br />
     <h1 class="text-dark">Products List</h1>
     <div style="overflow: hidden">
-        <a id="Button1" href="Products.aspx" class="btn btn-primary" style="float: right; justify-content: center; display: block; width: 100px">Create</a>
+        <a id="Button1" href="AddProduct.aspx" class="btn btn-primary" style="float: right; justify-content: center; display: block; width: 100px">Create</a>
     </div>
     <br />
 
