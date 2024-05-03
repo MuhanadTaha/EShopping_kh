@@ -17,6 +17,5 @@
             <asp:Button ID="btnSubmit" OnClick="btnSubmit_Click" runat="server" Text="Add Category" class="btn btn-primary" />
 
         </section>
-
     </div>
 </asp:Content>

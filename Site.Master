@@ -48,7 +48,7 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/CategoryList.aspx">Categories</a></li>
-                         <li class="nav-item"><a class="nav-link" runat="server" href="../ProductsList.aspxx">Products</a></li>
+                         <li class="nav-item"><a class="nav-link" runat="server" href="~/ProductsList.aspx">Products</a></li>
                        
                        <%-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin
