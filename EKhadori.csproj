@@ -127,9 +127,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Image\ImageProducts\hero-image.jpg" />
-    <Content Include="Image\ImageProducts\unknown_product.jpg" />
+    <Content Include="Image\ImageProducts\unknown_product.png" />
     <Content Include="Login.aspx" />
+    <Content Include="Orders.aspx" />
     <Content Include="ProductsList.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -248,6 +248,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.aspx.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Orders.aspx.designer.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProductsList.aspx.cs">
       <DependentUpon>ProductsList.aspx</DependentUpon>

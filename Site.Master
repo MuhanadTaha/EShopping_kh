@@ -47,8 +47,10 @@
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/CategoryList.aspx">Categories</a></li>
-                         <li class="nav-item"><a class="nav-link" runat="server" href="~/ProductsList.aspx">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/CategoryList.aspx" id="btnCategory">Categories</a></li>
+                         <li class="nav-item"><a class="nav-link" runat="server" href="~/ProductsList.aspx" id="btnProduct">Products</a></li>
+                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Orders.aspx"  id="btnOrder" visible="false">My Orders</a></li>
+                       
                        
                        <%-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin
@@ -84,10 +86,15 @@
         </div>
 
         <script type="text/javascript" src="Scripts/bootstrap.min.js "></script>
+      
     </form>
 
+
+
     <asp:PlaceHolder runat="server">
+
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+     
     </asp:PlaceHolder>
 </body>
 </html>

@@ -39,23 +39,7 @@ namespace EKhadori
                 cmd = new SqlCommand("insert into signup values('" + txtFirstName.Text + "'  , '" + txtLastName.Text + "' , '" + txtMobile.Text + "' ,  '" + txtDOB.Text + "' ,  '" + txtEmail.Text + "',  '" + txtPassword.Text + "' , '" + txtCPassword.Text + "' , '" + ddlGender.Text + "' ,'customer')", con);
 
                 cmd.ExecuteNonQuery();
-                //if (txtEmail.Text == "" || txtPassword.Text == "" || txtFirstName.Text == "" || txtLastName.Text == "" || txtCPassword.Text == "" || txtDOB.Text == "" || txtMobile.Text == "" || ddlGender.Text == "")
-                //{
-                //    Response.Write("<script>alert('Please Enter the Details');</script>");
-                //}
-                //else
-                //{
-                //    if (txtCPassword.Text != txtPassword.Text)
-                //    {
-                //        Response.Write("<script>alert('Confirm password is not correct');</script>");
-                //    }
-                //    else
-                //    {
-                //        cmd.ExecuteNonQuery();
-                //        Response.Write("<script>alert('Successfully');</script>");
-                //        Response.Redirect("LogIn.aspx");
-                //    }
-                //}
+           
                 Response.Redirect("LogIn.aspx");
                 con.Close();
             }

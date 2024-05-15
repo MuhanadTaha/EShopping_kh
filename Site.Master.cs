@@ -44,14 +44,19 @@ namespace EKhadori
 
             if (string.IsNullOrWhiteSpace(Result))
             {
-               // ddlAdmin.Visible = false;
+                // ddlAdmin.Visible = false;
+
+                btnProduct.Visible = false;
+                btnCategory.Visible = false;
+                
+
             }
             else
             {
                 btnOut.Visible = true;
                 btnLogin.Visible = false;
                 btnRegister.Visible = false;
-              //  btnOrder.Visible = true;
+                btnOrder.Visible = true;
             }
             con.Close();
         }
@@ -63,14 +68,19 @@ namespace EKhadori
             con.Open();
             string Result = Convert.ToString(cmd.ExecuteScalar());
 
-            //if (Result == "admin")
-            //{
-            //    ddlAdmin.Visible = true;
-            //}
-            //else
-            //{
-            //    ddlAdmin.Visible = false;
-            //}
+            if (Result == "admin")
+            {
+                //ddlAdmin.Visible = true;
+
+                btnProduct.Visible = true;
+                btnCategory.Visible = true;
+            }
+            else
+            {
+
+                btnProduct.Visible = false;
+                btnCategory.Visible = false;
+            }
             con.Close();
         }
 
