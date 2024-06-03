@@ -29,7 +29,6 @@ namespace EKhadori
 
             if (reader.Read())
             {
-                //MessageBox.Show("Login Success");
                 Session["Email"] = txtEmail.Text;
                 Response.Redirect("Default.aspx");
             }

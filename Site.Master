@@ -39,7 +39,7 @@
         </asp:ScriptManager>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" runat="server" href="~/">E-Shopping</a>
+                <a class="navbar-brand" runat="server" href="~/">Elecrto House Store </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -51,16 +51,7 @@
                          <li class="nav-item"><a class="nav-link" runat="server" href="~/ProductsList.aspx" id="btnProduct">Products</a></li>
                          <li class="nav-item"><a class="nav-link" runat="server" href="~/Orders.aspx"  id="btnOrder" visible="false">My Orders</a></li>
                        
-                       
-                       <%-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="../Category/CategoryList.aspx">Categories</a></li>
-                                <li><a class="dropdown-item" href="../ProductsList.aspx">Products</a></li>
-                                <li><a class="dropdown-item" id="A2" runat="server" href="AddAdmin.aspx">Add Admin</a></li>
-                            </ul>
-                        </li>--%>
+                   
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
                     </ul>
@@ -81,7 +72,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - EShopping</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Elecrto House Store</p>
             </footer>
         </div>
 

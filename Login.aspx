@@ -12,10 +12,7 @@
             <label for="exampleInputPassword1">Password</label>
             <asp:TextBox ID="txtPassword" runat="server" type="password" CssClass="form-control" placeholder="Enter Password"></asp:TextBox>
         </div>
-    <%--    <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>--%>
+
         <br />
 
         <asp:Button ID="Button1" runat="server" Text="Login" CssClass="btn btn-success" OnClick="Button1_Click" />
